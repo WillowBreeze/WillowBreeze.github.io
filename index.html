@@ -38,15 +38,13 @@
 
     <!-- Hero Section -->
 
-    <section id="home" class="h-screen bg-cover bg-center relative" style="background-image: url('https://picsum.photos/1920/1080')">
+    <section id="home" class="h-screen bg-cover bg-center relative" style="background-image: url('https://picsum.photos/1920/1080');">
 
         <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
 
             <h1 class="text-4xl md:text-6xl font-bold">你好，我是刘子煜</h1>
 
-            <p class="text-lg md:text-2xl mt-4">2024届通信工程 电子信息学院优秀毕业生</p>
-
-            <a href="#contact" class="mt-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">联系我</a>
+            <p class="text-lg md:text-2xl mt-4">2024届通信工程 电子信息学院毕业生</p>
 
         </div>
 
@@ -56,19 +54,15 @@
 
     <!-- About Me Section -->
 
-    <section id="about" class="container mx-auto py-16 px-4">
+    <section id="about" class="container mx-auto py-16 flex flex-col md:flex-row items-center">
 
-        <div class="flex flex-col md:flex-row items-center">
+        <img src="https://picsum.photos/300/300" alt="Profile Picture" class="rounded-full w-48 h-48 md:w-64 md:h-64 shadow-lg mb-8 md:mb-0 md:mr-8">
 
-            <img src="https://picsum.photos/300/300" alt="刘子煜证件照" class="w-48 h-48 rounded-full mr-8">
+        <div>
 
-            <div>
+            <h2 class="text-3xl font-bold mb-4">关于我</h2>
 
-                <h2 class="text-3xl font-bold mb-4">关于我</h2>
-
-                <p>男，中共党员，武汉大学通信工程 电子信息学院2024届本科毕业生。曾获学业奖学金一等奖9次，专业综测第一，GPA3.98/4.00，曾担任班级团支部书记等职务。</p>
-
-            </div>
+            <p>我是一名热爱科研的通信工程专业学生，对无人系统和视频处理有着浓厚的兴趣。曾主持国家级大学生创新创业训练项目1项，目前以一作身份发表学术论文4篇。曾获全国大学生数学建模竞赛二等奖1项，三等奖1项等奖项十余项。</p>
 
         </div>
 
@@ -78,25 +72,29 @@
 
     <!-- Education Section -->
 
-    <section id="education" class="bg-gray-200 py-16">
+    <section id="education" class="bg-white py-16">
 
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto">
 
-            <h2 class="text-3xl font-bold mb-8">教育经历</h2>
+            <h2 class="text-3xl font-bold mb-8 text-center">教育经历</h2>
 
             <div class="space-y-8">
 
-                <div class="border-l-4 border-blue-500 pl-6">
+                <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
 
-                    <h3 class="text-xl font-semibold">武汉大学 通信工程</h3>
+                    <h3 class="text-2xl font-bold mb-2">武汉大学 - 通信工程</h3>
 
-                    <p>2020年09月 - 2024年07月</p>
+                    <p class="text-gray-600 mb-2">2020年09月 - 2024年07月</p>
 
-                    <p>专业综测1/148，GPA3.98/4.00 专业前3</p>
+                    <p class="mb-2">学习成绩优异，综测1/148，GPA 3.98/4.00 (专业前3%)</p>
 
-                    <p>主要课程: 算法与数据结构 97，通信原理 96，模拟电路基础 95，高等数学94，数学物理方法 93，线性代数 93</p>
+                    <ul class="list-disc list-inside">
 
-                    <p>奖学金: 刘道玉创造学习奖学金，毕马威专项奖学金，武汉大学甲等奖学金，武汉大学三好学生，武汉大学优秀团干</p>
+                        <li>主要课程成绩优异，算法与数据结构 97，通信原理 96，模拟电路基础 95</li>
+
+                        <li>荣获刘道玉创造学习奖学金一等奖、毕马威专项奖学金一等奖等奖项十余项</li>
+
+                    </ul>
 
                 </div>
 
@@ -110,43 +108,39 @@
 
     <!-- Research Section -->
 
-    <section id="research" class="container mx-auto py-16 px-4">
+    <section id="research" class="container mx-auto py-16">
 
-        <h2 class="text-3xl font-bold mb-8">科研经历</h2>
+        <h2 class="text-3xl font-bold mb-8 text-center">科研经历</h2>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="space-y-8">
 
-            <div class="bg-white p-6 shadow-lg rounded-lg">
+            <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
 
-                <h3 class="text-xl font-semibold">无人机控制系统研究</h3>
+                <h3 class="text-2xl font-bold mb-2">无人机控制系统研究</h3>
 
-                <p>2022年02月 - 至今</p>
+                <p class="text-gray-600 mb-2">2022.02 - 至今</p>
 
-                <p>武汉大学电子信息学院无人机控制组</p>
-
-                <p>系统学习无人机的控制架构、ROS操作系统、PID控制原理、路径规划、各种目标识别检测算法等。负责无人机的ROS通信节点的设计，实现无人机各模块之间的通信与协作；设计各类目标识别算法，训练并在机载电脑部署神经网络。通过软硬件的同步开发，已实现无人机的多种应用功能，包括无人机钻圈，无人机绕杆与二维码识别，无人机追车，无人机送货等功能。</p>
+                <p class="mb-2">武汉大学电子信息学院无人机控制组研究员，负责无人机的ROS通信节点的设计等工作</p>
 
             </div>
 
-            <div class="bg-white p-6 shadow-lg rounded-lg">
+            <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
 
-                <h3 class="text-xl font-semibold">视频质量检测与评估</h3>
+                <h3 class="text-2xl font-bold mb-2">视频质量检测与评估</h3>
 
-                <p>2022年10月 - 至今</p>
+                <p class="text-gray-600 mb-2">2022.10 - 至今</p>
 
-                <p>武汉大学电子信息学院DSP实验室</p>
-
-                <p>加入实验室，协助老师开展视频质量评估（VQA）工作。目前一篇相关领域论文正在写作。以Swin Transformer为模型主干，通过加入基于CNN的图像质量评估（IQA）模型进而辅助视频质量评估工作。改进前人视频采样方法具有随机性的缺陷，使用高斯滤波和特征聚类为视频采样提供选择依据，显著提升了VQA模型的评估精度，在KoNViD等数据集上测试的PLCC数值，较传统方法提升了5-6个百分点。</p>
+                <p class="mb-2">加入武汉大学电子信息学院DSP实验室，协助老师开展视频质量评估研究工作</p>
 
             </div>
 
-            <div class="bg-white p-6 shadow-lg rounded-lg">
+            <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
 
-                <h3 class="text-xl font-semibold">大学生创新创业训练项目-基于机器视觉的水果检测</h3>
+                <h3 class="text-2xl font-bold mb-2">大学生创新创业训练项目 - 基于机器视觉的水果检测</h3>
 
-                <p>2020年11月 - 2022年04月</p>
+                <p class="text-gray-600 mb-2">2020.11 - 2022.04</p>
 
-                <p>通过自采集、标定的数据集，借助深度学习平台，测定SSD, YOLOV3, Centernet三种目标检测模型在水果缺陷识别领域的具体表现。负责通过样本增广，迁移学习等技术，训练神经网络模型。在众多条件限制下，寻求通过有限样本与较短的训练时长取得最优的识别精度，保障水果缺陷识别准确率。最终在测试集上取得0.87mAP的平均精度。这项技术可以应用在水果正式流入市场之前，对其质量进行快速精确的检测，剔除不合格的水果，具有一定商用价值。</p>
+                <p class="mb-2">负责样本增广，迁移学习等技术，训练神经网络模型等工作</p>
 
             </div>
 
@@ -158,41 +152,41 @@
 
     <!-- Competitions Section -->
 
-    <section id="competitions" class="bg-gray-200 py-16">
+    <section id="competitions" class="bg-white py-16">
 
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto">
 
-            <h2 class="text-3xl font-bold mb-8">竞赛经历</h2>
+            <h2 class="text-3xl font-bold mb-8 text-center">竞赛经历</h2>
 
             <div class="space-y-8">
 
-                <div class="border-l-4 border-blue-500 pl-6">
+                <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
 
-                    <h3 class="text-xl font-semibold">美国大学生数学建模竞赛 (F奖)</h3>
+                    <h3 class="text-2xl font-bold mb-2">美国大学生数学建模竞赛 - F奖</h3>
 
-                    <p>2022年02月 - 2022年03月</p>
+                    <p class="text-gray-600 mb-2">2022.02 - 2022.03</p>
 
-                    <p>担任队长，负责建模与编程。2022年美国大学生数学建模竞赛论文“Sequestrate more carbon &amp; Make better forests”获特等奖提名（F奖）。论文基于Logistic增长模型，模拟森林的生长曲线，提出了FCS（森林碳吸收）模型，预测结果完美拟合不同气候类型下的森林碳总量变化趋势。并在此基础上综合考量森林的多方面价值，进一步提出EEC（经济-环境-文化）模型，为制定森林的合理开发决策提供了可靠的参考依据。</p>
-
-                </div>
-
-                <div class="border-l-4 border-blue-500 pl-6">
-
-                    <h3 class="text-xl font-semibold">全国大学生数学建模竞赛 (国二)</h3>
-
-                    <p>2022年03月 - 2022年09月</p>
-
-                    <p>担任队长，负责编程与写作。2022年全国大学生数学建模大赛论文《古代玻璃制品的成分分析和鉴别模型》获全国二等奖。论文通过斯皮尔曼相关性分析和灰色分析对数据进行处理，建立的基于决策树的玻璃类型划分模型与基于 K 均值聚类的亚类划分模型，实现了对古代玻璃的准确分类和预测。</p>
+                    <p class="mb-2">担任队长，负责建模与编程等工作</p>
 
                 </div>
 
-                <div class="border-l-4 border-blue-500 pl-6">
+                <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
 
-                    <h3 class="text-xl font-semibold">全国大学生集成电路创新创业大赛 (华中赛区决赛二等奖)</h3>
+                    <h3 class="text-2xl font-bold mb-2">全国大学生数学建模竞赛 - 国二</h3>
 
-                    <p>2022年02月 - 2022年08月</p>
+                    <p class="text-gray-600 mb-2">2022.03 - 2022.09</p>
 
-                    <p>2022年2月至8月半年间，系统学习了机器学习和IC设计的相关知识，并将二者结合到系统设计中。团队基于RISC-V指令架构和Artix-7 FPGA，设计了一款基于CNN的食物热量识别系统。负责轻量化CNN网络的设计与量化工作，并在FPGA板上实现神经网络的硬件加速。系统通过硬件加速，将一次推理所需的266百万个周期减少为14.8万个周期，最终实现了近百倍的速度提升，大大提高了系统的实时性。</p>
+                    <p class="mb-2">担任队长，负责编程与写作等工作</p>
+
+                </div>
+
+                <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
+
+                    <h3 class="text-2xl font-bold mb-2">全国大学生集成电路创新创业大赛 - 华中赛区二等奖</h3>
+
+                    <p class="text-gray-600 mb-2">2022.02 - 2022.08</p>
+
+                    <p class="mb-2">团队基于RISC-V指令架构和Artix-7 FPGA，设计了一款基于CNN的食物热量识别系统</p>
 
                 </div>
 
@@ -206,19 +200,43 @@
 
     <!-- Honors Section -->
 
-    <section id="honors" class="container mx-auto py-16 px-4">
+    <section id="honors" class="container mx-auto py-16">
 
-        <h2 class="text-3xl font-bold mb-8">荣誉奖项</h2>
+        <h2 class="text-3xl font-bold mb-8 text-center">荣誉奖项</h2>
 
-        <ul class="list-disc pl-6 space-y-2">
+        <ul class="list-disc list-inside space-y-4">
 
-            <li>全国大学生数学建模竞赛 国二 - 2022年11月</li>
+            <li class="flex items-center">
 
-            <li>美国大学生数学建模竞赛 F奖 - 2022年3月</li>
+                <img src="https://picsum.photos/40/40" alt="Award Icon" class="w-8 h-8 mr-2">
 
-            <li>全国大学生集成电路创新创业大赛 华中赛区二等奖 - 2022年8月</li>
+                <span>全国大学生数学建模竞赛 国二 - 2022.11</span>
 
-            <li>全国大学生数学竞赛 湖北省二等奖 - 2021年11月</li>
+            </li>
+
+            <li class="flex items-center">
+
+                <img src="https://picsum.photos/40/40" alt="Award Icon" class="w-8 h-8 mr-2">
+
+                <span>美国大学生数学建模竞赛 F奖 - 2022.03</span>
+
+            </li>
+
+            <li class="flex items-center">
+
+                <img src="https://picsum.photos/40/40" alt="Award Icon" class="w-8 h-8 mr-2">
+
+                <span>全国大学生集成电路创新创业大赛 华中赛区二等奖 - 2022.08</span>
+
+            </li>
+
+            <li class="flex items-center">
+
+                <img src="https://picsum.photos/40/40" alt="Award Icon" class="w-8 h-8 mr-2">
+
+                <span>全国大学生数学竞赛 湖北省二等奖 - 2021.11</span>
+
+            </li>
 
         </ul>
 
@@ -228,39 +246,41 @@
 
     <!-- Activities Section -->
 
-    <section id="activities" class="bg-gray-200 py-16">
+    <section id="activities" class="bg-white py-16">
 
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto">
 
-            <h2 class="text-3xl font-bold mb-8">活动经历</h2>
+            <h2 class="text-3xl font-bold mb-8 text-center">活动经历</h2>
 
             <div class="space-y-8">
 
-                <div class="border-l-4 border-blue-500 pl-6">
+                <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
 
-                    <h3 class="text-xl font-semibold">武汉大学电子信息学院20级卓越工程师班 团支部书记</h3>
+                    <h3 class="text-2xl font-bold mb-2">武汉大学电子信息学院20级卓越工程师班 - 团支部书记</h3>
 
-                    <p>2022年02月 - 至今</p>
+                    <p class="text-gray-600 mb-2">2022.02 - 至今</p>
 
-                    <p>长期担任班级团支部书记，负责组织和开展团支部的各项工作，协助班主任和辅导员开展学院工作。所在团支部多次获得“先进团支部”、“优秀班集体”等荣誉称号。</p>
-
-                </div>
-
-                <div class="border-l-4 border-blue-500 pl-6">
-
-                    <h3 class="text-xl font-semibold">集成电路与半导体课程 教学助教</h3>
-
-                    <p>2022年11月 - 2023年03月</p>
-
-                    <p>负责协助老师开展“半导体与集成电路”课程教学实验工作。帮助老师安排课程教学内容，负责课程实验的设计与验收工作。</p>
+                    <p class="mb-2">长期担任班级团支部书记职务，组织开展了多项支部活动等工作</p>
 
                 </div>
 
-                <div class="border-l-4 border-blue-500 pl-6">
+                <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
 
-                    <h3 class="text-xl font-semibold">学院特色活动</h3>
+                    <h3 class="text-2xl font-bold mb-2">集成电路与半导体课程 - 助教</h3>
 
-                    <p>安排试点班的特殊课程：参观华为、卓尔宇航企业，实地实践培训，深入了解行业发展现状，拓宽视野。</p>
+                    <p class="text-gray-600 mb-2">2022.11 - 2023.03</p>
+
+                    <p class="mb-2">协助老师开展半导体与集成电路课程的教学实验等工作</p>
+
+                </div>
+
+                <div class="bg-gray-100 p-8 rounded-lg shadow-lg">
+
+                    <h3 class="text-2xl font-bold mb-2">学院特色活动 - 试点班班长</h3>
+
+                    <p class="text-gray-600 mb-2">2022.02 - 至今</p>
+
+                    <p class="mb-2">安排试点班的特殊课程，参观华为、卓尔宇航企业等工作</p>
 
                 </div>
 
@@ -274,47 +294,45 @@
 
     <!-- Contact Section -->
 
-    <section id="contact" class="container mx-auto py-16 px-4">
+    <section id="contact" class="container mx-auto py-16">
 
-        <h2 class="text-3xl font-bold mb-8">联系我</h2>
+        <h2 class="text-3xl font-bold mb-8 text-center">联系我</h2>
 
-        <form action="mailto:2020302121195@whu.edu.cn" method="post" enctype="text/plain" class="space-y-4">
+        <form class="max-w-md mx-auto bg-white p-8 rounded-lg shadow-lg">
 
-            <div>
+            <div class="mb-4">
 
-                <label for="name" class="block text-sm font-medium text-gray-700">姓名</label>
+                <label for="name" class="block text-gray-700">姓名</label>
 
-                <input type="text" id="name" name="name" class="ml-2 block w-full shadow-sm border-gray-300 rounded-md">
-
-            </div>
-
-            <div>
-
-                <label for="email" class="block text-sm font-medium text-gray-700">邮箱</label>
-
-                <input type="email" id="email" name="email" class="ml-2 block w-full shadow-sm border-gray-300 rounded-md">
+                <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded-lg" placeholder="Your Name">
 
             </div>
 
-            <div>
+            <div class="mb-4">
 
-                <label for="subject" class="block text-sm font-medium text-gray-700">主题</label>
+                <label for="email" class="block text-gray-700">邮箱</label>
 
-                <input type="text" id="subject" name="subject" class="ml-2 block w-full shadow-sm border-gray-300 rounded-md">
-
-            </div>
-
-            <div>
-
-                <label for="message" class="block text-sm font-medium text-gray-700">消息</label>
-
-                <textarea id="message" name="message" rows="4" class="ml-2 block w-full shadow-sm border-gray-300 rounded-md"></textarea>
+                <input type="email" id="email" class="w-full p-2 border border-gray-300 rounded-lg" placeholder="Your Email">
 
             </div>
 
-            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">发送</button>
+            <div class="mb-4">
+
+                <label for="message" class="block text-gray-700">消息</label>
+
+                <textarea id="message" class="w-full p-2 border border-gray-300 rounded-lg" rows="4" placeholder="Your Message"></textarea>
+
+            </div>
+
+            <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded-lg hover:bg-blue-600">发送</button>
 
         </form>
+
+        <div class="mt-8">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509373!2d114.27103168,30.5817991!3d30.5817991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35b13966a15217c9%3A0xbebee6fc9e0b786d!2sWuhan!5e0!3m2!1sen!2scn!4v1638375604140!5m2!1sen!2scn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
 
     </section>
 
@@ -322,17 +340,19 @@
 
     <!-- Footer -->
 
-    <footer class="bg-white py-6 mt-16">
+    <footer class="bg-white py-8">
 
         <div class="container mx-auto text-center">
 
-            <p>武汉 2023年</p>
+            <p>© 2023 刘子煜</p>
 
             <div class="flex justify-center space-x-4 mt-4">
 
-                <a href="https://linkedin.com" class="hover:text-blue-500">LinkedIn</a>
+                <a href="#" class="hover:text-blue-500">Facebook</a>
 
-                <a href="https://github.com" class="hover:text-blue-500">GitHub</a>
+                <a href="#" class="hover:text-blue-500">Twitter</a>
+
+                <a href="#" class="hover:text-blue-500">LinkedIn</a>
 
             </div>
 
