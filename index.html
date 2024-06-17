@@ -1,215 +1,345 @@
 <html>
+
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-<body class="font-sans leading-relaxed tracking-wide flex flex-col">
-  <header id="home" class="relative h-screen bg-cover bg-center" style="background-image: url('https://picsum.photos/1600/900');">
-    <div class="absolute inset-0 bg-black opacity-50"></div>
-    <div class="absolute inset-0 flex flex-col justify-center items-center text-white">
-      <h1 class="text-5xl font-bold">Jiaqi Wang</h1>
-      <p class="text-2xl mt-4">Research Scientist</p>
-      <p class="mt-2">701 Yunjin Road, Xuhui, Shanghai, China</p>
-      <p class="mt-2">+86) 18604792323 | wjqdev@gmail.com | <a href="https://github.com/myownskyW7" target="_blank">github:myownskyW7</a> | <a href="https://scholar.google.com/citations?user=GDvt570AAAAJ" target="_blank">google scholar</a></p>
-    </div>
-  </header>
 
-  <section id="profile" class="py-20 bg-gray-100">
-    <div class="container mx-auto flex flex-col md:flex-row items-center">
-      <img src="https://source.unsplash.com/random/300x300/?portrait" alt="Profile Picture" class="rounded-full w-48 h-48 mb-6 md:mb-0 md:mr-6">
-      <div>
-        <h2 class="text-3xl font-bold mb-4">Profile</h2>
-        <p>Jiaqi Wang is a Research Scientist at Shanghai AI Laboratory. Before that, he received his Ph.D. at Multimedia Laboratory (MMLab) of The Chinese University of Hong Kong (CUHK), supervised by Prof. Dahua Lin. He also works closely with Prof. Chen Change Loy.</p>
-        <p>His research interests focus on Multimodal Learning, Visual Perception, and AI Content Creation in both 2D and 3D open worlds.</p>
-        <p>We have opening positions for research interns (undergraduate, master, Ph.D. and gap year students are all welcomed) and full-time researchers. Please drop me an e-mail (wjqdev@gmail.com) if you are interested.</p>
-      </div>
-    </div>
-  </section>
+<body class="bg-gray-100 text-gray-800">
 
-  <section id="education" class="py-20 bg-white">
-    <div class="container mx-auto">
-      <h2 class="text-3xl font-bold mb-8 text-center">Education</h2>
-      <div class="relative">
-        <div class="border-l-2 border-gray-400 pl-8">
-          <div class="mb-8">
-            <div class="flex items-center mb-2">
-              <div class="bg-gray-400 w-8 h-8 rounded-full flex items-center justify-center">
-                <img src="https://source.unsplash.com/random/40x40/?university" alt="Sun Yat-sen University Logo" class="w-6 h-6">
-              </div>
-              <div class="ml-4">
-                <h3 class="text-xl font-semibold">Sun Yat-Sen University</h3>
-                <p>B.Eng. in Software Engineering</p>
-                <p>Aug. 2013 - Jun. 2017</p>
-              </div>
+    <!-- Header -->
+
+    <header class="bg-white shadow fixed w-full z-10">
+
+        <div class="container mx-auto p-4 flex justify-between items-center">
+
+            <div class="text-xl font-bold">刘子煜</div>
+
+            <nav class="space-x-4">
+
+                <a href="#home" class="hover:text-blue-500">Home</a>
+
+                <a href="#education" class="hover:text-blue-500">Education</a>
+
+                <a href="#research" class="hover:text-blue-500">Research</a>
+
+                <a href="#competitions" class="hover:text-blue-500">Competitions</a>
+
+                <a href="#honors" class="hover:text-blue-500">Honors</a>
+
+                <a href="#activities" class="hover:text-blue-500">Activities</a>
+
+                <a href="#contact" class="hover:text-blue-500">Contact</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- Hero Section -->
+
+    <section id="home" class="h-screen bg-cover bg-center relative" style="background-image: url('https://picsum.photos/1920/1080')">
+
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
+
+            <h1 class="text-4xl md:text-6xl font-bold">你好，我是刘子煜</h1>
+
+            <p class="text-lg md:text-2xl mt-4">2024届通信工程 电子信息学院优秀毕业生</p>
+
+            <a href="#contact" class="mt-8 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">联系我</a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- About Me Section -->
+
+    <section id="about" class="container mx-auto py-16 px-4">
+
+        <div class="flex flex-col md:flex-row items-center">
+
+            <img src="https://picsum.photos/300/300" alt="刘子煜证件照" class="w-48 h-48 rounded-full mr-8">
+
+            <div>
+
+                <h2 class="text-3xl font-bold mb-4">关于我</h2>
+
+                <p>男，中共党员，武汉大学通信工程 电子信息学院2024届本科毕业生。曾获学业奖学金一等奖9次，专业综测第一，GPA3.98/4.00，曾担任班级团支部书记等职务。</p>
+
             </div>
-            <p>Guangzhou Cit, China</p>
-          </div>
-          <div class="mb-8">
-            <div class="flex items-center mb-2">
-              <div class="bg-gray-400 w-8 h-8 rounded-full flex items-center justify-center">
-                <img src="https://source.unsplash.com/random/40x40/?university" alt="CUHK Logo" class="w-6 h-6">
-              </div>
-              <div class="ml-4">
-                <h3 class="text-xl font-semibold">The Chinese University of Hong Kong (CUHK)</h3>
-                <p>Ph.D. in Information Engineering</p>
-                <p>Aug. 2017 - Nov. 2021</p>
-              </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Education Section -->
+
+    <section id="education" class="bg-gray-200 py-16">
+
+        <div class="container mx-auto px-4">
+
+            <h2 class="text-3xl font-bold mb-8">教育经历</h2>
+
+            <div class="space-y-8">
+
+                <div class="border-l-4 border-blue-500 pl-6">
+
+                    <h3 class="text-xl font-semibold">武汉大学 通信工程</h3>
+
+                    <p>2020年09月 - 2024年07月</p>
+
+                    <p>专业综测1/148，GPA3.98/4.00 专业前3</p>
+
+                    <p>主要课程: 算法与数据结构 97，通信原理 96，模拟电路基础 95，高等数学94，数学物理方法 93，线性代数 93</p>
+
+                    <p>奖学金: 刘道玉创造学习奖学金，毕马威专项奖学金，武汉大学甲等奖学金，武汉大学三好学生，武汉大学优秀团干</p>
+
+                </div>
+
             </div>
-            <p>Hong Kong</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="experience" class="py-20 bg-gray-100">
-    <div class="container mx-auto">
-      <h2 class="text-3xl font-bold mb-8 text-center">Work Experience</h2>
-      <div class="relative">
-        <div class="border-l-2 border-gray-400 pl-8">
-          <div class="mb-8 hover:bg-gray-200 p-4 rounded">
-            <div class="flex items-center mb-2">
-              <div class="bg-gray-400 w-8 h-8 rounded-full flex items-center justify-center">
-                <img src="https://source.unsplash.com/random/40x40/?company" alt="Shanghai AI Laboratory Logo" class="w-6 h-6">
-              </div>
-              <div class="ml-4">
-                <h3 class="text-xl font-semibold">Shanghai AI Laboratory</h3>
-                <p>Research Scientist & Team Leader</p>
-                <p>Nov. 2021 - Now</p>
-              </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Research Section -->
+
+    <section id="research" class="container mx-auto py-16 px-4">
+
+        <h2 class="text-3xl font-bold mb-8">科研经历</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+            <div class="bg-white p-6 shadow-lg rounded-lg">
+
+                <h3 class="text-xl font-semibold">无人机控制系统研究</h3>
+
+                <p>2022年02月 - 至今</p>
+
+                <p>武汉大学电子信息学院无人机控制组</p>
+
+                <p>系统学习无人机的控制架构、ROS操作系统、PID控制原理、路径规划、各种目标识别检测算法等。负责无人机的ROS通信节点的设计，实现无人机各模块之间的通信与协作；设计各类目标识别算法，训练并在机载电脑部署神经网络。通过软硬件的同步开发，已实现无人机的多种应用功能，包括无人机钻圈，无人机绕杆与二维码识别，无人机追车，无人机送货等功能。</p>
+
             </div>
-            <p>Shanghai, China</p>
-          </div>
-          <div class="mb-8 hover:bg-gray-200 p-4 rounded">
-            <div class="flex items-center mb-2">
-              <div class="bg-gray-400 w-8 h-8 rounded-full flex items-center justify-center">
-                <img src="https://source.unsplash.com/random/40x40/?company" alt="MSRA Logo" class="w-6 h-6">
-              </div>
-              <div class="ml-4">
-                <h3 class="text-xl font-semibold">Microsoft Research Asia (MSRA)</h3>
-                <p>Research Intern</p>
-                <p>Jul. 2016 - Feb. 2017</p>
-              </div>
+
+            <div class="bg-white p-6 shadow-lg rounded-lg">
+
+                <h3 class="text-xl font-semibold">视频质量检测与评估</h3>
+
+                <p>2022年10月 - 至今</p>
+
+                <p>武汉大学电子信息学院DSP实验室</p>
+
+                <p>加入实验室，协助老师开展视频质量评估（VQA）工作。目前一篇相关领域论文正在写作。以Swin Transformer为模型主干，通过加入基于CNN的图像质量评估（IQA）模型进而辅助视频质量评估工作。改进前人视频采样方法具有随机性的缺陷，使用高斯滤波和特征聚类为视频采样提供选择依据，显著提升了VQA模型的评估精度，在KoNViD等数据集上测试的PLCC数值，较传统方法提升了5-6个百分点。</p>
+
             </div>
-            <p>Beijing, China</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section id="honors" class="py-20 bg-white">
-    <div class="container mx-auto">
-      <h2 class="text-3xl font-bold mb-8 text-center">Honors & Awards</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-gray-100 p-6 rounded shadow-lg transition transform hover:scale-105">
-          <h3 class="text-xl font-semibold mb-2">2023 Award Candidate, CVPR 2023</h3>
-        </div>
-        <div class="bg-gray-100 p-6 rounded shadow-lg transition transform hover:scale-105">
-          <h3 class="text-xl font-semibold mb-2">2019 1st place entry in COCO 2019 Object Detection Challenge (without external data), Team: MMDet, Team Leader</h3>
-        </div>
-        <div class="bg-gray-100 p-6 rounded shadow-lg transition transform hover:scale-105">
-          <h3 class="text-xl font-semibold mb-2">2018 1st place entry in COCO 2018 Object Detection Challenge, Team: MMDet, Core Member</h3>
-        </div>
-      </div>
-    </div>
-  </section>
+            <div class="bg-white p-6 shadow-lg rounded-lg">
 
-  <section id="projects" class="py-20 bg-gray-100">
-    <div class="container mx-auto">
-      <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-white p-6 rounded shadow-lg overflow-hidden">
-          <img src="https://source.unsplash.com/random/400x300/?code" alt="InternLM-XComposer" class="w-full h-48 object-cover">
-          <div class="mt-4">
-            <h3 class="text-xl font-semibold">InternLM-XComposer</h3>
-            <p class="mt-2">Project Leader 2023 - now</p>
-            <p class="mt-2">InternLM-XComposer is one of the most influential open-source Multimodal Large Model series, with over 1.9k stars on GitHub and more than 300k downloads on Hugging Face.</p>
-            <a href="https://github.com/InternLM/InternLM-XComposer" target="_blank" class="text-blue-500 mt-2 block">Github: InternLM-XComposer</a>
-            <a href="/path/to/technical_report.pdf" target="_blank" class="text-blue-500 mt-2 block">Technical Report</a>
-          </div>
-        </div>
-        <div class="bg-white p-6 rounded shadow-lg overflow-hidden">
-          <img src="https://source.unsplash.com/random/400x300/?code" alt="MMDetection" class="w-full h-48 object-cover">
-          <div class="mt-4">
-            <h3 class="text-xl font-semibold">MMDetection</h3>
-            <p class="mt-2">Second author and Core Developer 2018 - now</p>
-            <p class="mt-2">MMDetection is one of the most popular object detection codebase. It has more than 25k stars on Github.</p>
-            <a href="https://github.com/open-mmlab/mmdetection" target="_blank" class="text-blue-500 mt-2 block">Github Link</a>
-            <a href="/path/to/technical_report.pdf" target="_blank" class="text-blue-500 mt-2 block">Technical Report</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+                <h3 class="text-xl font-semibold">大学生创新创业训练项目-基于机器视觉的水果检测</h3>
 
-  <section id="publications" class="py-20 bg-white">
-    <div class="container mx-auto">
-      <h2 class="text-3xl font-bold mb-8 text-center">Publications</h2>
-      <div class="relative">
-        <div class="w-full mx-auto">
-          <table class="min-w-full bg-white">
-            <thead>
-              <tr>
-                <th class="py-2 px-4 border-b">Title</th>
-                <th class="py-2 px-4 border-b">Conference</th>
-                <th class="py-2 px-4 border-b">Co-authors</th>
-                <th class="py-2 px-4 border-b">Year</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="py-2 px-4 border-b">CrossGET: Cross-Guided Ensemble of Tokens for Accelerating Vision-Language Transformers</td>
-                <td class="py-2 px-4 border-b">ICML 2024 Poster</td>
-                <td class="py-2 px-4 border-b">D. Shi, C. Tao, A. Rao, Z. Yang, C. Yuan, J. Wang</td>
-                <td class="py-2 px-4 border-b">2024</td>
-              </tr>
-              <tr>
-                <td class="py-2 px-4 border-b">GPT4Point: A Unified Framework for Point-Language Understanding and Generation</td>
-                <td class="py-2 px-4 border-b">CVPR 2024 Highlight</td>
-                <td class="py-2 px-4 border-b">Z. Qi, Y. Fang, Z. Sun, X. Wu, T. Wu, J. Wang, D. Lin, H. Zhao</td>
-                <td class="py-2 px-4 border-b">2024</td>
-              </tr>
-              <tr>
-                <td class="py-2 px-4 border-b">Alpha-CLIP: A clip model focusing on wherever you want</td>
-                <td class="py-2 px-4 border-b">CVPR 2023 Poster</td>
-                <td class="py-2 px-4 border-b">Z. Sun, Y. Fang, T. Wu, P. Zhang, Y. Zang, S. Kong, Y. Xiong, D. Lin, J. Wang</td>
-                <td class="py-2 px-4 border-b">2023</td>
-              </tr>
-              <tr>
-                <td class="py-2 px-4 border-b">OmniObject3D: Large-Vocabulary 3D Object Dataset for Realistic Perception, Reconstruction and Generation</td>
-                <td class="py-2 px-4 border-b">CVPR 2023 Award Candidate</td>
-                <td class="py-2 px-4 border-b">T. Wu, J. Zhang, X. Fu, Y. Wang, J. Ren, L. Pan, W. Wu, L. Yang, J. Wang, C. Qian, D. Lin, Z. Liu</td>
-                <td class="py-2 px-4 border-b">2023</td>
-              </tr>
-              <tr>
-                <td class="py-2 px-4 border-b">Semantics-Aware Dynamic Localization and Refinement for Referring Image Segmentation</td>
-                <td class="py-2 px-4 border-b">AAAI 2022 Poster</td>
-                <td class="py-2 px-4 border-b">Z. Yang, J. Wang, Y. Tang, K. Chen, H. Zhao, P. H. S. Torr</td>
-                <td class="py-2 px-4 border-b">2022</td>
-              </tr>
-              <tr>
-                <td class="py-2 px-4 border-b">Pyskl: Towards good practices for skeleton action recognition</td>
-                <td class="py-2 px-4 border-b">MM 2022</td>
-                <td class="py-2 px-4 border-b">H. Duan, J. Wang, K. Chen, D. Lin</td>
-                <td class="py-2 px-4 border-b">2022</td>
-              </tr>
-              <tr>
-                <td class="py-2 px-4 border-b">Dense Distinct Query for End-to-End Object Detection</td>
-                <td class="py-2 px-4 border-b">CVPR 2023 Poster</td>
-                <td class="py-2 px-4 border-b">S. Zhang, X. Wang, J. Wang, J. Pang, C. Lyu, W. Zhang, P. Luo, K. Chen</td>
-                <td class="py-2 px-4 border-b">2023</td>
-              </tr>
-              <tr>
-                <td class="py-2 px-4 border-b">BUOL: A Bottom-Up Framework with Occupancy-aware Lifting for Panoptic 3D Scene Reconstruction From A Single Image</td>
-                <td class="py-2 px-4 border-b">CVPR 2023 Poster</td>
-                <td class="py-2 px-4 border-b">T. Chu, P. Zhang, Q. Liu, J. Wang</td>
-                <td class="py-2 px-4 border-b">2023</td>
-              </tr>
-              <tr>
-                <td class="py-2 px-4 border-b">HyperDreamer: Hyper-Realistic 3D Content Generation and Editing from a Single Image</td>
-                <td class="py-2 px-4 border-b">SIGGRAPH Asia 2023 Poster</td>
-                <td class="py-2 px-4 border-b">T. Wu, Z. Li, S. Yang, P. Zhang, X. Pan, J. Wang, Z. Liu, D. Lin</td>
-                <td class="py-2 px-4 border-b">2023</td>
-              </tr>
-              <tr>
-                <td class="py-2 px-4 border-b">VIGC: Visual Instruction Generation and Correction</td>
-                <td class="py-2 px-4 border-b">AAAI 2024 Poster</td>
-                <td class="py-2 px-4 border-b">B. Wang, F. Wu, X. Han, J. Peng, H. Z
+                <p>2020年11月 - 2022年04月</p>
+
+                <p>通过自采集、标定的数据集，借助深度学习平台，测定SSD, YOLOV3, Centernet三种目标检测模型在水果缺陷识别领域的具体表现。负责通过样本增广，迁移学习等技术，训练神经网络模型。在众多条件限制下，寻求通过有限样本与较短的训练时长取得最优的识别精度，保障水果缺陷识别准确率。最终在测试集上取得0.87mAP的平均精度。这项技术可以应用在水果正式流入市场之前，对其质量进行快速精确的检测，剔除不合格的水果，具有一定商用价值。</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Competitions Section -->
+
+    <section id="competitions" class="bg-gray-200 py-16">
+
+        <div class="container mx-auto px-4">
+
+            <h2 class="text-3xl font-bold mb-8">竞赛经历</h2>
+
+            <div class="space-y-8">
+
+                <div class="border-l-4 border-blue-500 pl-6">
+
+                    <h3 class="text-xl font-semibold">美国大学生数学建模竞赛 (F奖)</h3>
+
+                    <p>2022年02月 - 2022年03月</p>
+
+                    <p>担任队长，负责建模与编程。2022年美国大学生数学建模竞赛论文“Sequestrate more carbon &amp; Make better forests”获特等奖提名（F奖）。论文基于Logistic增长模型，模拟森林的生长曲线，提出了FCS（森林碳吸收）模型，预测结果完美拟合不同气候类型下的森林碳总量变化趋势。并在此基础上综合考量森林的多方面价值，进一步提出EEC（经济-环境-文化）模型，为制定森林的合理开发决策提供了可靠的参考依据。</p>
+
+                </div>
+
+                <div class="border-l-4 border-blue-500 pl-6">
+
+                    <h3 class="text-xl font-semibold">全国大学生数学建模竞赛 (国二)</h3>
+
+                    <p>2022年03月 - 2022年09月</p>
+
+                    <p>担任队长，负责编程与写作。2022年全国大学生数学建模大赛论文《古代玻璃制品的成分分析和鉴别模型》获全国二等奖。论文通过斯皮尔曼相关性分析和灰色分析对数据进行处理，建立的基于决策树的玻璃类型划分模型与基于 K 均值聚类的亚类划分模型，实现了对古代玻璃的准确分类和预测。</p>
+
+                </div>
+
+                <div class="border-l-4 border-blue-500 pl-6">
+
+                    <h3 class="text-xl font-semibold">全国大学生集成电路创新创业大赛 (华中赛区决赛二等奖)</h3>
+
+                    <p>2022年02月 - 2022年08月</p>
+
+                    <p>2022年2月至8月半年间，系统学习了机器学习和IC设计的相关知识，并将二者结合到系统设计中。团队基于RISC-V指令架构和Artix-7 FPGA，设计了一款基于CNN的食物热量识别系统。负责轻量化CNN网络的设计与量化工作，并在FPGA板上实现神经网络的硬件加速。系统通过硬件加速，将一次推理所需的266百万个周期减少为14.8万个周期，最终实现了近百倍的速度提升，大大提高了系统的实时性。</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Honors Section -->
+
+    <section id="honors" class="container mx-auto py-16 px-4">
+
+        <h2 class="text-3xl font-bold mb-8">荣誉奖项</h2>
+
+        <ul class="list-disc pl-6 space-y-2">
+
+            <li>全国大学生数学建模竞赛 国二 - 2022年11月</li>
+
+            <li>美国大学生数学建模竞赛 F奖 - 2022年3月</li>
+
+            <li>全国大学生集成电路创新创业大赛 华中赛区二等奖 - 2022年8月</li>
+
+            <li>全国大学生数学竞赛 湖北省二等奖 - 2021年11月</li>
+
+        </ul>
+
+    </section>
+
+
+
+    <!-- Activities Section -->
+
+    <section id="activities" class="bg-gray-200 py-16">
+
+        <div class="container mx-auto px-4">
+
+            <h2 class="text-3xl font-bold mb-8">活动经历</h2>
+
+            <div class="space-y-8">
+
+                <div class="border-l-4 border-blue-500 pl-6">
+
+                    <h3 class="text-xl font-semibold">武汉大学电子信息学院20级卓越工程师班 团支部书记</h3>
+
+                    <p>2022年02月 - 至今</p>
+
+                    <p>长期担任班级团支部书记，负责组织和开展团支部的各项工作，协助班主任和辅导员开展学院工作。所在团支部多次获得“先进团支部”、“优秀班集体”等荣誉称号。</p>
+
+                </div>
+
+                <div class="border-l-4 border-blue-500 pl-6">
+
+                    <h3 class="text-xl font-semibold">集成电路与半导体课程 教学助教</h3>
+
+                    <p>2022年11月 - 2023年03月</p>
+
+                    <p>负责协助老师开展“半导体与集成电路”课程教学实验工作。帮助老师安排课程教学内容，负责课程实验的设计与验收工作。</p>
+
+                </div>
+
+                <div class="border-l-4 border-blue-500 pl-6">
+
+                    <h3 class="text-xl font-semibold">学院特色活动</h3>
+
+                    <p>安排试点班的特殊课程：参观华为、卓尔宇航企业，实地实践培训，深入了解行业发展现状，拓宽视野。</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="container mx-auto py-16 px-4">
+
+        <h2 class="text-3xl font-bold mb-8">联系我</h2>
+
+        <form action="mailto:2020302121195@whu.edu.cn" method="post" enctype="text/plain" class="space-y-4">
+
+            <div>
+
+                <label for="name" class="block text-sm font-medium text-gray-700">姓名</label>
+
+                <input type="text" id="name" name="name" class="ml-2 block w-full shadow-sm border-gray-300 rounded-md">
+
+            </div>
+
+            <div>
+
+                <label for="email" class="block text-sm font-medium text-gray-700">邮箱</label>
+
+                <input type="email" id="email" name="email" class="ml-2 block w-full shadow-sm border-gray-300 rounded-md">
+
+            </div>
+
+            <div>
+
+                <label for="subject" class="block text-sm font-medium text-gray-700">主题</label>
+
+                <input type="text" id="subject" name="subject" class="ml-2 block w-full shadow-sm border-gray-300 rounded-md">
+
+            </div>
+
+            <div>
+
+                <label for="message" class="block text-sm font-medium text-gray-700">消息</label>
+
+                <textarea id="message" name="message" rows="4" class="ml-2 block w-full shadow-sm border-gray-300 rounded-md"></textarea>
+
+            </div>
+
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">发送</button>
+
+        </form>
+
+    </section>
+
+
+
+    <!-- Footer -->
+
+    <footer class="bg-white py-6 mt-16">
+
+        <div class="container mx-auto text-center">
+
+            <p>武汉 2023年</p>
+
+            <div class="flex justify-center space-x-4 mt-4">
+
+                <a href="https://linkedin.com" class="hover:text-blue-500">LinkedIn</a>
+
+                <a href="https://github.com" class="hover:text-blue-500">GitHub</a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
